@@ -22,7 +22,7 @@ namespace ToDoList.Tests
     [TestMethod]
     public void GetDescription_ReturnsDescription_String()
     {
-      string description = "Walk the dog.";
+      string description = "I am the dog.";
       Item newItem = new Item(description);
       string result = newItem.Description;
       Assert.AreEqual(description, result);
