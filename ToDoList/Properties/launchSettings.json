@@ -1,5 +1,6 @@
 {
   "profiles": {
+    
     "development": {
       "commandName": "Project",
       "dotnetRunMessages": true,
